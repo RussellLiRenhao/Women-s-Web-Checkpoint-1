@@ -64,7 +64,16 @@ nav ul li {
     color: black;
     padding: 10px;
     margin: 20px;
-  }
+}
+.skip-link {
+    position: absolute;
+    left: -999em;
+}
+.skip-link:focus {
+    position: static;
+    left: auto;
+    background-color: yellow;
+}
 
   .footer {
     border: 1px solid black;
