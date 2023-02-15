@@ -1,0 +1,89 @@
+img{
+    width: 45%;
+    font-size: 30px;
+    color: #e2df1b;
+}
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+    }
+h2 {
+    font-size: 30px;
+    color: #e90c0c;
+    line-height: 2;
+}
+
+img {
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div:nth-child(2n) img{
+    border: 5px solid rgb(68, 211, 20);
+}
+
+
+nav ul li {
+    /* Set margin, padding, font-size */
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1.2em;
+
+    /* Set display property to inline-block*/
+    display: inline-block;
+    /* Add space between list items */
+    justify-content: space-between;
+    /* Set padding and background color */
+    padding: 10px;
+    background-color: #e4b10a;
+}
+
+.active{
+    background-color: #f1eaea;
+}
+
+.center {
+    text-align: center;
+}
+
+.section {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+  }
+
+.disclaimer {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .footer {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+}
+.word-section {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
